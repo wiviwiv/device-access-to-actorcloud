@@ -1,18 +1,15 @@
 {
-    "plugins": [ "theme-api" ],
-    "pluginsConfig": {
-        "theme-api": {
-            "languages": [
-                {
-                    "lang": "js",
-                    "name": "JavaScript",
-                    "default": true
-                },
-                {
-                    "lang": "go",
-                    "name": "Go"
-                }
-            ]
-        }
+  "plugins": [
+    "prism",
+    "-highlight",
+    "-sharing"
+  ],
+  "title" : "EMQ 设备管理平台 actorcloud 接入指南",
+  "language" : "zh-hans",
+  "links": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false
     }
+  }
 }

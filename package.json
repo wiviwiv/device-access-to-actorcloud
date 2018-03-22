@@ -1,0 +1,26 @@
+{
+  "name": "device-access-to-actorcloud",
+  "version": "1.0.0",
+  "description": "How to access your MQTT device to actorcloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiviwiv/device-access-to-actorcloud.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wiviwiv/device-access-to-actorcloud/issues"
+  },
+  "homepage": "https://github.com/wiviwiv/device-access-to-actorcloud#readme",
+  "dependencies": {
+    "gitbook": "^3.2.3",
+    "gitbook-plugin-prism": "^2.3.0",
+    "markdown-table": "^1.1.1",
+    "gitbook-cli": "^2.3.2"
+  }
+}
